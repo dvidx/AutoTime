@@ -1,0 +1,20 @@
+{
+  "project_name": "20210302_Thingnario_LSTM",
+  "input_file": "C:/temp/solar.csv",
+  "output_path": "C:/temp/",
+  "pred_var": "Power",
+  "model": "lstm_basic.py",
+  "start_date": "2018-12-01",
+  "end_date": "2019-06-30",
+  "train_split": 144,
+  "stat_dist_steps": 6,
+  "forecast_steps":1,
+  "gridsearch": {
+    "n_input": [6],
+    "n_nodes": [8, 16],
+    "n_epochs": [10],
+    "n_batch": [144],
+    "n_diff": [0],
+    "n_dropout": [0]
+  }
+}
